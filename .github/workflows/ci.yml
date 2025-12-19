@@ -1,4 +1,4 @@
-name: CI - Build .NET & Docker
+name: CI - WebAPICRUD
 
 on:
   push:
@@ -11,19 +11,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+    - name: Checkout code
+      uses: actions/checkout@v4
 
-      - name: Setup .NET 8
-        uses: actions/setup-dotnet@v4
-        with:
-          dotnet-version: '8.0.x'
+    - name: Setup .NET 8
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 8.0.x
 
-      - name: Restore dependencies
-        run: dotnet restore WebAPICRUD.sln
+    - name: Restore dependencies
+      run: dotnet restore WebAPICRUD/WebAPICRUD.csproj
 
-      - name: Build project
-        run: dotnet build build WebAPICRUD.sln --no-restore --configuration Release
-
-      - name: Docker build
-        run: docker build -t myapi-ci .
+    - name: Build project
+      run: dotnet build WebAPICRUD/WebAPICRUD.csproj --configuration Release --no-restore
