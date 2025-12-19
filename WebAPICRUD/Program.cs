@@ -12,6 +12,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
 builder.Services.AddDbContext<DbcrudContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("CadenaSQL") ?? throw new InvalidOperationException("Connection string 'DbcrudContext' not found.")));
 
@@ -24,17 +25,20 @@ builder.Services.AddCors(options =>
             builder.AllowAnyOrigin()
                    .AllowAnyMethod()
                    .AllowAnyHeader();
-        });
+         });
 });
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+using (var scope = app.Services.CreateScope())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    var db = scope.ServiceProvider.GetRequiredService<DbcrudContext>();
+    db.Database.Migrate();
 }
+
+// Configure the HTTP request pipeline.
+app.UseSwagger();
+app.UseSwaggerUI();
 
 if (!app.Environment.IsProduction())
 {
