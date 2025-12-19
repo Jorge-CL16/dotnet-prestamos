@@ -20,10 +20,10 @@ jobs:
           dotnet-version: '8.0.x'
 
       - name: Restore dependencies
-        run: dotnet restore WebAPICRUD/WebAPICRUD.csproj
+        run: dotnet restore WebAPICRUD.sln
 
       - name: Build project
-        run: dotnet build --no-restore --configuration Release
+        run: dotnet build build WebAPICRUD.sln --no-restore --configuration Release
 
       - name: Docker build
         run: docker build -t myapi-ci .
