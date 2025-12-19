@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jorge\\OneDrive\\Documentos\\Blazor Pruebas\\WebAPICRUD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0382DE7A-3738-4BFA-9F44-71E192199922}|WebAPICRUD.csproj|c:\\users\\jorge\\onedrive\\documentos\\blazor pruebas\\webapicrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0382DE7A-3738-4BFA-9F44-71E192199922}|WebAPICRUD.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0382DE7A-3738-4BFA-9F44-71E192199922}|WebAPICRUD.csproj|c:\\users\\jorge\\onedrive\\documentos\\blazor pruebas\\webapicrud\\webapicrud.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{0382DE7A-3738-4BFA-9F44-71E192199922}|WebAPICRUD.csproj|solutionrelative:webapicrud.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0382DE7A-3738-4BFA-9F44-71E192199922}|WebAPICRUD.csproj|c:\\users\\jorge\\onedrive\\documentos\\blazor pruebas\\webapicrud\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0382DE7A-3738-4BFA-9F44-71E192199922}|WebAPICRUD.csproj|solutionrelative:controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0382DE7A-3738-4BFA-9F44-71E192199922}|WebAPICRUD.csproj|c:\\users\\jorge\\onedrive\\documentos\\blazor pruebas\\webapicrud\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0382DE7A-3738-4BFA-9F44-71E192199922}|WebAPICRUD.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0382DE7A-3738-4BFA-9F44-71E192199922}|WebAPICRUD.csproj|c:\\users\\jorge\\onedrive\\documentos\\blazor pruebas\\webapicrud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0382DE7A-3738-4BFA-9F44-71E192199922}|WebAPICRUD.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0382DE7A-3738-4BFA-9F44-71E192199922}|WebAPICRUD.csproj|c:\\users\\jorge\\onedrive\\documentos\\blazor pruebas\\webapicrud\\models\\dbcrudcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0382DE7A-3738-4BFA-9F44-71E192199922}|WebAPICRUD.csproj|solutionrelative:models\\dbcrudcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0382DE7A-3738-4BFA-9F44-71E192199922}|WebAPICRUD.csproj|c:\\users\\jorge\\onedrive\\documentos\\blazor pruebas\\webapicrud\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0382DE7A-3738-4BFA-9F44-71E192199922}|WebAPICRUD.csproj|solutionrelative:models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WebAPICRUD.http",
+              "DocumentMoniker": "C:\\Users\\jorge\\OneDrive\\Documentos\\Blazor Pruebas\\WebAPICRUD\\WebAPICRUD.http",
+              "RelativeDocumentMoniker": "WebAPICRUD.http",
+              "ToolTip": "C:\\Users\\jorge\\OneDrive\\Documentos\\Blazor Pruebas\\WebAPICRUD\\WebAPICRUD.http",
+              "RelativeToolTip": "WebAPICRUD.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-12-16T02:52:20.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmpleadoController.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\OneDrive\\Documentos\\Blazor Pruebas\\WebAPICRUD\\Controllers\\EmpleadoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmpleadoController.cs",
+              "ToolTip": "C:\\Users\\jorge\\OneDrive\\Documentos\\Blazor Pruebas\\WebAPICRUD\\Controllers\\EmpleadoController.cs",
+              "RelativeToolTip": "Controllers\\EmpleadoController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAqwCIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T02:30:42.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\OneDrive\\Documentos\\Blazor Pruebas\\WebAPICRUD\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\jorge\\OneDrive\\Documentos\\Blazor Pruebas\\WebAPICRUD\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T02:27:42.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\OneDrive\\Documentos\\Blazor Pruebas\\WebAPICRUD\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\jorge\\OneDrive\\Documentos\\Blazor Pruebas\\WebAPICRUD\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwBsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T02:23:23.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\jorge\\OneDrive\\Documentos\\Blazor Pruebas\\WebAPICRUD\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\jorge\\OneDrive\\Documentos\\Blazor Pruebas\\WebAPICRUD\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-16T02:21:43.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\OneDrive\\Documentos\\Blazor Pruebas\\WebAPICRUD\\Models\\Empleado.cs",
+              "RelativeDocumentMoniker": "Models\\Empleado.cs",
+              "ToolTip": "C:\\Users\\jorge\\OneDrive\\Documentos\\Blazor Pruebas\\WebAPICRUD\\Models\\Empleado.cs",
+              "RelativeToolTip": "Models\\Empleado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T02:19:22.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DbcrudContext.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\OneDrive\\Documentos\\Blazor Pruebas\\WebAPICRUD\\Models\\DbcrudContext.cs",
+              "RelativeDocumentMoniker": "Models\\DbcrudContext.cs",
+              "ToolTip": "C:\\Users\\jorge\\OneDrive\\Documentos\\Blazor Pruebas\\WebAPICRUD\\Models\\DbcrudContext.cs",
+              "RelativeToolTip": "Models\\DbcrudContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T02:18:34.606Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
